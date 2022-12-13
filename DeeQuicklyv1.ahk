@@ -10,7 +10,7 @@ Gui, Show, w120 h340 x1650 ,DeeQuickly
 FileInstall D:\Scripts\DeeQuickly\Assets\DeeQuickly.ico, % ico
 FileInstall D:\Scripts\DeeQuickly\Assets\DQ.png ,% png
 ;Menu , Tray ,Icon , D:\Scripts\DeeQuickly\Assets\DeeQuickly.ico
-;Gui, Add, Picture, w45 h45 x35 , D:\Scripts\DeeQuickly\Assets\DQ.png
+Gui, Add, Picture, w45 h45 x35 , D:\Scripts\DeeQuickly\Assets\DQ.png
 
 Gui, Color, Black
 
