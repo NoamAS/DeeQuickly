@@ -8,8 +8,8 @@ Gui, New, +AlwaysOnTop
 ;MsgBox , Welcome . Please check the readMe file within the main folder for questions
 ;Gui , Add ,Checkbox, vDontShowAgainClicked , Dont Show Again
 Gui, Show, w120 h340 x1650 ,DeeQuickly
-FileInstall D:\Scripts\DeeQuickly\Assets\DeeQuickly.ico,c:\temp\DeeQuickly.ico
-FileInstall D:\Scripts\DeeQuickly\Assets\Deezer.png ,c:\temp\Deezer.png
+FileInstall D:\Scripts\DeeQuickly\Assets\DeeQuickly.ico,DeeQuickly.ico
+FileInstall D:\Scripts\DeeQuickly\Assets\Deezer.png ,Deezer.png
 Menu , Tray ,Icon , D:\Scripts\DeeQuickly\Assets\DeeQuickly.ico
 Gui, Add, Picture, w50 h50 x35 , D:\Scripts\DeeQuickly\Assets\Deezer.png
 Gui, Color, Black
