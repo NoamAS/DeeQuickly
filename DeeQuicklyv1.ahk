@@ -5,6 +5,8 @@ SetWorkingDir,%A_ScriptDir%\DeeQuickly\Assets
 
 FileInstall,D:\Scripts\DeeQuickly\Assets\Deezer.png,%A_WorkingDir%\Deezer.png
 FileInstall,D:\Scripts\DeeQuickly\Assets\DeeQuickly.ico,%A_WorkingDir%\DeeQuickly.ico
+CoordMode ,Pixel ,Screen
+CoordMode, Mouse , Screen 
 Menu , Tray ,Icon ,DeeQuickly.ico
 
 Gui, New, +AlwaysOnTop
@@ -55,8 +57,6 @@ sleep 3000
 Send {Tab}
 sleep 3000
 Send {Enter}
-sleep 3000
-send ,#d
 return
 
 LaunchT:
@@ -67,8 +67,6 @@ sleep 3000
 Send {Tab}
 sleep 3000
 Send {Enter}
-sleep 3000
-send ,#d
 return
 
 LaunchA:
@@ -79,8 +77,6 @@ sleep 3000
 Send {Tab}
 sleep 3000
 Send {Enter}
-sleep 3000
-send ,#d
 return
 
 Launch1:
@@ -91,8 +87,6 @@ sleep 3000
 Send {Tab}
 sleep 3000
 Send {Enter}
-sleep 3000
-send ,#d
 return
 
 Launch2:
@@ -103,8 +97,6 @@ sleep 3000
 Send {Tab}
 sleep 3000
 Send {Enter}
-sleep 3000
-send ,#d
 return
 
 Launch3:
@@ -115,8 +107,6 @@ sleep 3000
 Send {Tab}
 sleep 3000
 Send {Enter}
-sleep 3000
-send ,#d
 return
 
 Launch4:
@@ -127,8 +117,6 @@ sleep 3000
 Send {Tab}
 sleep 3000
 Send {Enter}
-sleep 3000
-send ,#d
 return
 
 Launch5:
@@ -139,8 +127,6 @@ sleep 3000
 Send {Tab}
 sleep 3000
 Send {Enter}
-sleep 3000
-send ,#d
 return
 
 
