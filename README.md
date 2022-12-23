@@ -1,7 +1,7 @@
 
 # DeeQuickly v1.0
 
-# DeeQuickly is a small app to launch the smart tracklist offered by Deezer . 
+# DeeQuickly is a small app to launch the smart tracklists offered by Deezer . 
 # The app includes 6 options to choose from :
    1.Discovery Monday 
    
